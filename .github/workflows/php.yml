@@ -1,6 +1,13 @@
 name: PHP Composer
 
 on: [push]
+# 下記で対象のブランチを指定できる
+# on:
+#   push:
+#     branches: # 対象
+#       - 'develop'
+#     branches-ignore: # 除外対象
+#       - 'master'
 
 jobs:
   build:
