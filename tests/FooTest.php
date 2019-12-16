@@ -17,4 +17,10 @@ class FooTest extends TestCase
 		$Foo = new Foo();
 		$this->assertEquals(1, $Foo->subtraction(3, 2));
 	}
+
+	public function testMultiplication()
+	{
+		$Foo = new Foo();
+		$this->assertEquals(6, $Foo->multiplication(3, 2));
+	}
 }
