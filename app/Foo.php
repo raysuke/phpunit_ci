@@ -10,4 +10,9 @@ class Foo
 	{
 		return $num1 - $num2;
 	}
+
+	public function multiplication($num1, $num2)
+	{
+		return $num1 * $num2;
+	}
 }
