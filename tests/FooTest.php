@@ -9,7 +9,6 @@ class FooTest extends TestCase
 	{
 		$Foo = new Foo();
 		$this->assertEquals(5, $Foo->addition(3, 2));
-		$this->assertEquals(6, $Foo->addition(3, 2));
 	}
 
 	public function testSubtraction()
