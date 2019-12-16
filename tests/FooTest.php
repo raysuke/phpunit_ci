@@ -22,5 +22,6 @@ class FooTest extends TestCase
 	{
 		$Foo = new Foo();
 		$this->assertEquals(6, $Foo->multiplication(3, 2));
+		$this->assertEquals(30, $Foo->multiplication(10, 3));
 	}
 }
